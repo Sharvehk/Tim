@@ -1,4 +1,64 @@
+body{
+    text-align: center;
+    
+}
+
+#image{
+    width: 250px;
+    border-radius:50%;
+    
+}
+
+#welcome{
+    background:linear-gradient(#33c9cc 0%,#4bc400 100% ); 
+    height: 800px;
+    color: floralwhite; 
+    opacity:0.83; 
+    z-index: 9;
+}
+
 h1{
-  color: forestgreen;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: sans-serif;
+    font-weight: bold;
+        
+}
+h2{
+   font-size: 30px;
+    line-height: 1.2;
+    font-family: sans-serif;
+    font-weight: bold; 
+}
+
+#bio{
+    padding: 50px;
+    font-family:inherit;
+}
+
+p{
+    max-width: 450px;
+    line-height: 1.3;
+    font-size: 20px;
+    margin: 25px auto; 
+    
+}
+
+.links{
+    float: left;
+    color:crimson;
+    font-family:sans-serif;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+}
+.menu{
+    z-index: 10;
+    list-style: none;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color:crimson; 
 }
